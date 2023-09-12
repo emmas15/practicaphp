@@ -1,0 +1,32 @@
+/* Estilos para la barra de navegación en el lado izquierdo */
+.barra-lateral {
+    width: 250px; /* Ancho de la barra de navegación */
+    background-color: #333; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    position: fixed; /* Fijar la barra en su lugar */
+    top: 0; /* Alinear en la parte superior */
+    left: 0; /* Alinear en el lado izquierdo */
+    height: 100%; /* Tamaño de pantalla completa */
+    padding: 20px; /* Espacio interno */
+}
+
+/* Estilos para los enlaces de navegación */
+.barra-lateral ul {
+    list-style: none; /* Eliminar viñetas de la lista */
+    padding: 0;
+}
+
+.barra-lateral ul li {
+    margin-bottom: 10px;
+}
+
+.barra-lateral a {
+    text-decoration: none; /* Eliminar subrayado de enlaces */
+    color: #fff; /* Color del texto de los enlaces */
+}
+
+/* Estilos para el contenido principal */
+.contenido-principal {
+    margin-left: 270px; /* Dejar espacio para la barra de navegación */
+    padding: 20px;
+}
